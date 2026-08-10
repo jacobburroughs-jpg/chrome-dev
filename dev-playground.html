@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Developer DevTools Practice</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .card {
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .user-info {
+            display: flex;
+            gap: 20px;
+        }
+
+        .status {
+            color: green;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .primary-button {
+            background-color: #333;
+            color: white;
+        }
+
+        .secondary-button {
+            background-color: #ddd;
+            color: #222;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h1>Junior Developer Practice</h1>
+            <p>Chrome DevTools Practical Assessment</p>
+        </header>
+
+        <main>
+
+            <section class="card">
+                <h2>User Information</h2>
+
+                <div class="user-info">
+                    <div>
+                        <p>Name:</p>
+                        <p id="user-name">Alex</p>
+                    </div>
+
+                    <div>
+                        <p>Role:</p>
+                        <p id="user-role">Developer</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Actions</h2>
+
+                <button class="primary-button" id="load-user">
+                    Load User
+                </button>
+
+                <button class="secondary-button" id="save-user">
+                    Save
+                </button>
+            </section>
+
+            <section class="card">
+                <h2>Status</h2>
+
+                <p class="status" id="status-message">
+                    Ready
+                </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>DevTools Practice Environment</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
